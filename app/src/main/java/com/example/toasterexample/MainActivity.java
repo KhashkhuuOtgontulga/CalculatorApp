@@ -65,7 +65,6 @@ public class MainActivity extends AppCompatActivity {
         subtract = findViewById(R.id.button_minus);
         add = findViewById(R.id.button_add);
         divide = findViewById(R.id.button_divide);
-
         sin = findViewById(R.id.button_sin);
         cos = findViewById(R.id.button_cos);
         tan = findViewById(R.id.button_tan);
@@ -80,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
         clearButtons("");
         if(isClicked) {
             output.setText("0.");
+            isClicked = false;
         }
         else {
             output.append(".");

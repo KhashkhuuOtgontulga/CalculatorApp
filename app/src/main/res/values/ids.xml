@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="button_four" type="id" />
+    <item name="button_eight" type="id" />
+    <item name="button_sin" type="id" />
+    <item name="button_two" type="id" />
+    <item name="button_seven" type="id" />
+    <item name="button_five" type="id" />
+    <item name="button_one" type="id" />
+    <item name="button_zero" type="id" />
+    <item name="button_three" type="id" />
+    <item name="button_add" type="id" />
+    <item name="button_cos" type="id" />
+    <item name="button_nine" type="id" />
+    <item name="button_dot" type="id" />
+    <item name="button_six" type="id" />
+    <item name="button_tan" type="id" />
+    <item name="button_divide" type="id" />
+    <item name="button_multiply" type="id" />
+    <item name="button_minus" type="id" />
+    <item name="textview_output" type="id" />
+    <item name="barrier" type="id" />
+    <item name="button_equals" type="id" />
+</resources>
