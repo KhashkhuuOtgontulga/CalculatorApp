@@ -13,11 +13,11 @@ public class ToasterMessage {
         } else if(operator.equals("-")) {
             return (first_operand - second_operand);
         } else if(operator.equals("sin")) {
-            return (Math.sin(first_operand));
+            return (Math.sin(Math.toRadians(first_operand)));
         } else if(operator.equals("cos")) {
-            return (Math.cos(first_operand));
+            return (Math.cos(Math.toRadians(first_operand)));
         } else if(operator.equals("tan")) {
-            return (Math.tan(first_operand));
+            return (Math.tan(Math.toRadians(first_operand)));
         }
         return 0;
     }
