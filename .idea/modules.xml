@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ToasterExample.iml" filepath="$PROJECT_DIR$/ToasterExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalculatorApp.iml" filepath="$PROJECT_DIR$/CalculatorApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/corefunctionalitylibrary/corefunctionalitylibrary.iml" filepath="$PROJECT_DIR$/corefunctionalitylibrary/corefunctionalitylibrary.iml" />
     </modules>

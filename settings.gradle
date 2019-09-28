@@ -1,2 +1,2 @@
 include ':app', ':corefunctionalitylibrary'
-rootProject.name='ToasterExample'
+rootProject.name='CalculatorApp'

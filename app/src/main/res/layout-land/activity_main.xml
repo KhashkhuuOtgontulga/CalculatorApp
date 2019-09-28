@@ -21,8 +21,8 @@
     <Button
         android:id="@+id/button_seven"
         android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="16dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
         android:onClick="seven_clicked"
         android:text="7"
         app:layout_constraintEnd_toEndOf="@+id/button_sin"
@@ -34,19 +34,22 @@
         android:id="@+id/button_zero"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="32dp"
         android:onClick="zero_clicked"
         android:text="0"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/button_two"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/button_one"
-        app:layout_constraintTop_toBottomOf="@+id/button_one" />
+        app:layout_constraintTop_toBottomOf="@+id/button_one"
+        app:layout_constraintVertical_bias="0.055" />
 
     <Button
         android:id="@+id/button_one"
         android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="16dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="8dp"
         android:onClick="one_clicked"
         android:text="1"
         app:layout_constraintEnd_toEndOf="@+id/button_four"
@@ -57,8 +60,8 @@
     <Button
         android:id="@+id/button_four"
         android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="16dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
         android:onClick="four_clicked"
         android:text="4"
         app:layout_constraintEnd_toEndOf="@+id/button_seven"
@@ -102,17 +105,16 @@
 
     <TextView
         android:id="@+id/textview_output"
-        android:layout_width="295dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="8dp"
+        android:layout_width="154dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="28dp"
         android:gravity="center|right|center_vertical"
         android:textAlignment="gravity"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_four"
+        app:layout_constraintEnd_toStartOf="@+id/button_seven"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/button_seven" />
 
     <Button
         android:id="@+id/button_six"
@@ -211,31 +213,33 @@
         android:id="@+id/button_divide"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="228dp"
         android:onClick="divide_clicked"
         android:text="÷"
         app:layout_constraintBottom_toBottomOf="@+id/button_tan"
-        app:layout_constraintEnd_toEndOf="@+id/textview_output"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
         app:layout_constraintStart_toEndOf="@+id/button_tan"
         app:layout_constraintTop_toTopOf="@+id/button_tan"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button_sin"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="8dp"
         android:onClick="sin_clicked"
         android:text="sin"
-        app:layout_constraintStart_toStartOf="@+id/textview_output"
-        app:layout_constraintTop_toBottomOf="@+id/textview_output" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_cos"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="16dp"
         android:onClick="cos_clicked"
         android:text="cos"
         app:layout_constraintBottom_toBottomOf="@+id/button_sin"
@@ -259,14 +263,13 @@
         android:id="@+id/button_clear"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="212dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
         android:onClick="clear"
         android:text="Clear"
-        app:layout_constraintBottom_toTopOf="@+id/barrier"
-        app:layout_constraintEnd_toEndOf="@+id/button_equals"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/button_zero"
-        app:layout_constraintTop_toBottomOf="@+id/button_zero" />
+        app:layout_constraintBottom_toBottomOf="@+id/button_minus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_minus"
+        app:layout_constraintTop_toTopOf="@+id/button_minus" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

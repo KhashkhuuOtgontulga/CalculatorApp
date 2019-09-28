@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.KhashkhuuOtgontulga:CalculatorApp:0.7.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f582447e7ffddc720ae186bc6c64c408/Toaster-Library-0.7.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f582447e7ffddc720ae186bc6c64c408/Toaster-Library-0.7.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.KhashkhuuOtgontulga/CalculatorApp/0.7.0/c6d598d9e5b79a773ed8e8f0e85ad3be615d141e/CalculatorApp-0.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
