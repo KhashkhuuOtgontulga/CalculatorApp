@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ToasterExample.iml" filepath="$PROJECT_DIR$/ToasterExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/toasterlibrary/toasterlibrary.iml" filepath="$PROJECT_DIR$/toasterlibrary/toasterlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/corefunctionalitylibrary/corefunctionalitylibrary.iml" filepath="$PROJECT_DIR$/corefunctionalitylibrary/corefunctionalitylibrary.iml" />
     </modules>
   </component>
 </project>

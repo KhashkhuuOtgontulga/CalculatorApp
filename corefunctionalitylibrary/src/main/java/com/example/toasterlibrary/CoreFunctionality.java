@@ -1,9 +1,9 @@
 package com.example.toasterlibrary;
 
 
-public class ToasterMessage {
+public class CoreFunctionality {
 
-    public static double s(double first_operand, double second_operand, String operator){
+    public static double calculate(double first_operand, double second_operand, String operator){
         if(operator.equals("/")) {
             return (first_operand / second_operand);
         } else if(operator.equals("+")) {
