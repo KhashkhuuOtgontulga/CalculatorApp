@@ -263,6 +263,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void equals_clicked(View w) {
+        clearButtons("");
         second_operand = Double.parseDouble(output.getText().toString());
         double display = ToasterMessage.s(first_operand, second_operand, operator);
         output.setText(Double.toString(display));
